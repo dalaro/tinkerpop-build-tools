@@ -1,0 +1,13 @@
+diff --git a/gremlin-server/pom.xml b/gremlin-server/pom.xml
+index 583eb23..3297012 100644
+--- a/gremlin-server/pom.xml
++++ b/gremlin-server/pom.xml
+@@ -120,7 +120,7 @@ limitations under the License.
+                     </execution>
+                 </executions>
+                 <configuration>
+-                    <attach>true</attach>
++                    <attach>false</attach>
+                     <descriptors>
+                         <descriptor>src/assembly/standalone.xml</descriptor>
+                         <descriptor>src/assembly/distribution.xml</descriptor>
