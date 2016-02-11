@@ -6,7 +6,7 @@ It does a few things:
 * note the current HEAD commit
 * apply patches in the patch directory, which point TP at DS's Maven repo
 * set a new project version based on the current version minus -SNAPSHOT,
-  the current datestamp, and the leading characters of the currently HEAD
+  the current datestamp, and the leading characters of the current HEAD
   commit hash
 * add these changes to the index and commit
 * create a new tag matching the project version generated above
