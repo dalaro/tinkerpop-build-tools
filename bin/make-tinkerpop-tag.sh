@@ -42,7 +42,7 @@ declare -r BIN="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 cd "$ORIGWD"
 
 # Declare some constants
-declare -r TP_REPO_DIRECTORY=~/incubator-tinkerpop
+declare -r TP_REPO_DIRECTORY=~/tinkerpop
 declare -r COMMIT_HASH=`git rev-parse HEAD`
 declare -r COMMIT_HASH_ABBREV=`echo $COMMIT_HASH | head -c 8`
 declare -r PATCH_FILES="$BIN"/../patch/*.patch
